@@ -97,3 +97,4 @@
 ```
 
 #### В результате на дисплее должно получиться следующее:
+![Результат успешной работы примера](https://github.com/nickit94/oled-ssd1306-sh1106-stm32-hal/blob/master/ResultExample.jpg)
