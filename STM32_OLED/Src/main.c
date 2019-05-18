@@ -102,9 +102,9 @@ int main(void)
   OLED_Init(&hi2c1);
 
   /* Text */
-  setFont(Segoe_UI_Rus_12);
-  OLED_DrawStr("Ghbdtn vbh!", 0, 15, 1);
-  setFont(Segoe_UI_Eng_10);
+  FontSet(Segoe_UI_Rus_12);
+  OLED_DrawStr("Ghbdtn vbh!", 0, 15, 1);		// "Привет мир!"
+  FontSet(Segoe_UI_Eng_10);
   OLED_DrawStr("by nickit94", RIGHT, 48, 1);
 
   /* Icon */

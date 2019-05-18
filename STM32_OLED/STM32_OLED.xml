@@ -10,8 +10,8 @@
 ]>
 
 <targetDefinitions>
-  <board id="oled_library">
-    <name>OLED_Library</name>
+  <board id="stm32_oled">
+    <name>STM32_OLED</name>
     <dbgIF>SWD</dbgIF>
     <dbgDEV>ST-Link</dbgDEV>
     <mcuId>stm32f103c8tx</mcuId>

@@ -1,7 +1,7 @@
 [PreviousGenFiles]
-HeaderPath=C:/STM32_Projects/OLED_Library/Inc
+HeaderPath=C:/STM32_Projects/STM32_OLED/Inc
 HeaderFiles=stm32f1xx_it.h;stm32f1xx_hal_conf.h;main.h;
-SourcePath=C:/STM32_Projects/OLED_Library/Src
+SourcePath=C:/STM32_Projects/STM32_OLED/Src
 SourceFiles=stm32f1xx_it.c;stm32f1xx_hal_msp.c;main.c;
 
 [PreviousLibFiles]

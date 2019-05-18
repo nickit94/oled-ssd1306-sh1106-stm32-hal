@@ -1,7 +1,7 @@
 #ifndef OLEDFONTS_H_
 #define OLEDFONTS_H_
 
-#include "main.h"
+#include <stdint.h>
 
 #define fontbyte(x) Font.font[x]
 
@@ -39,6 +39,6 @@ extern fontdatatype Arial_Rus_7[];
 extern fontdatatype Segoe_UI_Eng_12[];
 extern fontdatatype Segoe_UI_Eng_10[];
 
-void setFont(const uint8_t* font);
+void FontSet(const uint8_t* font);
 
 #endif /* OLEDFONTS_H_ */

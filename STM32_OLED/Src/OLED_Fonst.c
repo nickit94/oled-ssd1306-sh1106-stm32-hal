@@ -2,7 +2,7 @@
 
 font_t Font;
 
-void setFont(const uint8_t* new_font)
+void FontSet(const uint8_t* new_font)
 {
 	 Font.font = new_font;
 	 Font.width = (int16_t)fontbyte(0);
