@@ -84,12 +84,6 @@ int main(void)
   SystemClock_Config();
 
   /* USER CODE BEGIN SysInit */
-//  __HAL_RCC_I2C2_CLK_ENABLE();
-//  HAL_Delay(100);
-//  __HAL_RCC_I2C2_FORCE_RESET();
-//  HAL_Delay(100);
-//  __HAL_RCC_I2C2_RELEASE_RESET();
-//  HAL_Delay(100);
   /* USER CODE END SysInit */
 
   /* Initialize all configured peripherals */
